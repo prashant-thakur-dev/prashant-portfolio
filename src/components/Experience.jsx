@@ -1,5 +1,4 @@
-import React from 'react';
-import { Briefcase, Calendar, MapPin, Award } from 'lucide-react';
+import { Award, Briefcase, Calendar, MapPin } from 'lucide-react';
 
 const Experience = () => {
   const experiences = [
@@ -20,8 +19,8 @@ const Experience = () => {
     {
       title: 'Full Stack Developer Intern',
       company: 'TechCorp Solutions',
-      location: 'New York, NY',
-      date: 'June 2025 - July 2025',
+      location: 'Kota, IN',
+      date: 'June 2024 - Sep 2024',
       type: 'Internship',
       achievements: [
         'Developed and deployed 3 responsive web applications using React and Node.js, serving 500+ active users.',

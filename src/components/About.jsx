@@ -78,7 +78,7 @@ const About = () => {
                   <h4 className="text-xl font-bold text-blue-400">Location</h4>
                 </div>
                 <div className="space-y-3">
-                  <p className="text-white font-semibold text-lg">Punjab, India</p>
+                  <p className="text-white font-semibold text-lg">Noida, India</p>
                   <p className="text-gray-300">Available for Remote Work</p>
                   <p className="text-blue-400 text-sm font-medium">Open to Relocate</p>
                 </div>
@@ -100,7 +100,7 @@ const About = () => {
                     <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-500/10 rounded-2xl mb-4 group-hover:bg-blue-500/20 transition-colors duration-300">
                       <Code size={28} className="text-blue-400" />
                     </div>
-                    <div className="text-4xl font-bold text-blue-400 mb-2">2+</div>
+                    <div className="text-4xl font-bold text-blue-400 mb-2">4+</div>
                     <div className="text-gray-300 font-medium">Years Learning</div>
                   </div>
                 </div>
@@ -110,7 +110,7 @@ const About = () => {
                     <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-500/10 rounded-2xl mb-4 group-hover:bg-blue-500/20 transition-colors duration-300">
                       <Trophy size={28} className="text-blue-400" />
                     </div>
-                    <div className="text-4xl font-bold text-blue-400 mb-2">5+</div>
+                    <div className="text-4xl font-bold text-blue-400 mb-2">8+</div>
                     <div className="text-gray-300 font-medium">Projects Built</div>
                   </div>
                 </div>
@@ -120,7 +120,7 @@ const About = () => {
                     <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-500/10 rounded-2xl mb-4 group-hover:bg-blue-500/20 transition-colors duration-300">
                       <GraduationCap size={28} className="text-blue-400" />
                     </div>
-                    <div className="text-4xl font-bold text-blue-400 mb-2">3</div>
+                    <div className="text-4xl font-bold text-blue-400 mb-2">5+</div>
                     <div className="text-gray-300 font-medium">Certifications</div>
                   </div>
                 </div>
