@@ -11,22 +11,32 @@ const Navbar = ({ activeSection, isMenuOpen, setIsMenuOpen, isMobile = false }) 
   ];
 
   const scrollToSection = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      const headerOffset = 80;
-      const elementPosition = element.offsetTop;
-      const offsetPosition = elementPosition - headerOffset;
-
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      });
+    // Close menu immediately for mobile
+    if (isMobile) {
+      setIsMenuOpen(false);
     }
-    setIsMenuOpen(false);
+    
+    // Small delay to ensure menu closes before scrolling
+    setTimeout(() => {
+      const element = document.getElementById(id);
+      if (element) {
+        const headerOffset = 80;
+        const elementPosition = element.offsetTop;
+        const offsetPosition = elementPosition - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }
+    }, isMobile ? 100 : 0);
   };
 
   if (isMobile) {
     // Mobile Navigation Content - Clean & Minimal
+    // Only show if menu is open
+    if (!isMenuOpen) return null;
+    
     return (
       <div className="space-y-2 p-4">
         {navItems.map((item, index) => (
