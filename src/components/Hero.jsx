@@ -108,7 +108,7 @@ const Hero = () => {
               </button>
               
               <a
-                href="/resume.pdf"
+                href="https://drive.google.com/uc?export=download&id=1arJbn6MSrkatBwcOgCStSX-g6dAZHT3v"
                 download
                 className="group flex items-center gap-2 border border-gray-600 hover:border-blue-400 text-gray-300 hover:text-blue-400 px-8 py-3 rounded-lg transition-all duration-300 hover:shadow-lg font-medium"
               >
@@ -145,14 +145,14 @@ const Hero = () => {
               <Mail size={20} className="group-hover:animate-pulse" />
             </a>
             <a
-              href="https://github.com/prashant"
+              href="https://github.com/prashant-thakur-dev"
               className="group p-3 rounded-full border border-gray-700 hover:border-blue-400 text-gray-400 hover:text-blue-400 transition-all duration-300 hover:scale-110 hover:shadow-lg bg-gray-900/50 backdrop-blur-sm"
               aria-label="GitHub"
             >
               <Github size={20} className="group-hover:animate-pulse" />
             </a>
             <a
-              href="https://linkedin.com/in/prashant"
+              href="https://www.linkedin.com/in/prashant00kumar/"
               className="group p-3 rounded-full border border-gray-700 hover:border-blue-400 text-gray-400 hover:text-blue-400 transition-all duration-300 hover:scale-110 hover:shadow-lg bg-gray-900/50 backdrop-blur-sm"
               aria-label="LinkedIn"
             >
